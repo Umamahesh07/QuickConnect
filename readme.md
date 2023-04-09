@@ -1,47 +1,16 @@
-Syncreon Coding Challenge:
+Project: QuickConnect - Full Stack Responsive Web App
 
-This is a web application built using Node.js, JavaScript, HTML, and CSS (Bootstrap). This README file provides a step-by-step guide on how to set up and run the project on your local machine.
 
-Technologies Used:
+This README provides an overview of the technologies used in the QuickConnect project, a full stack responsive web application built using Node.js, JavaScript, HTML, CSS (Bootstrap), and mySQL. One of the key features of this web app is the ability to upload an XML file, which will then automatically insert the data contained in the file into the database.
 
-* Node.js - Server-side runtime environment for handling back-end logic using JavaScript.
-* JavaScript - Programming Language used both front-end and back-end development
-* HTML - structuring web content
-* CSS (Bootstrap) - styling and responsive design
-* mySQL - data storage and management
+Technologies Used
 
-Prerequisites:
+Node.js: Server-side runtime environment for handling back-end logic using JavaScript.
+JavaScript: Programming language used for both front-end and back-end development.
+HTML: Language for structuring web content.
+CSS (Bootstrap): Framework for styling and responsive design.
+mySQL: Database system for data storage and management.
+Project Overview
+The QuickConnect project aims to create a user-friendly web application with a responsive design. By leveraging the power of Node.js, JavaScript, HTML, CSS (Bootstrap), and mySQL, this application offers a seamless experience across devices and platforms.
 
-Make sure you have the following installed on your system:
-
-* Node.js
-* npm (comes bundled with Node.js)
-* Visual Studio Code (or any other code editor of your choice)
-* mySQL
-
-Setup and Installation:
-
-Follow these steps to set up the project on your local machine:
-
-1. Clone the repository: Clone the given repository to your local machine. You can either use git clone [repository_url] or download the repository as a ZIP file and extract it.
-
-2. Open the project in Visual Studio Code: Open the project folder in Visual Studio Code or your preferred code editor.
-
-3. Create the .env file: In the project folder, create a file named .env. Add the following fields to the file:
-PORT=[port_number]
-HOST=[host_address]
-DB_USER=[database_username]
-DB_PWD=[database_password]
-DB_NAME=[database_name]
-Replace the values in square brackets with your actual settings.
-
-4. Create the database and tables: Set up a new database and create the necessary tables in the order specified in the schema.sql file.
-
-5. Install dependencies: Open a terminal in Visual Studio Code (or your code editor) and run the following command to install all the required Node.js modules:
-npm install or npm -i
-
-6. Start the server: After the installation is complete, run the following command to start the server:
-npm start
-This will start the server on the specified host and port in the .env file.
-
-7. Access the application: Open your web browser and navigate to the address http://[host_address]:[port_number] (replace with the actual host and port values from the .env file). You should now see the application running.
+A standout feature of QuickConnect is the ability to upload XML files, allowing users to easily import data into the system. Upon uploading an XML file, the application processes the data and automatically inserts it into the appropriate database tables.
