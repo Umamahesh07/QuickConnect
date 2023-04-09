@@ -1,0 +1,34 @@
+CREATE TABLE IF NOT EXISTS Customers (
+  CustomerID INT AUTO_INCREMENT PRIMARY KEY,
+  CustomerCode VARCHAR(255),
+  FirstName VARCHAR(255),
+  LastName VARCHAR(255),
+  Phone VARCHAR(255),
+  Email VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS Addresses (
+  AddressID INT AUTO_INCREMENT PRIMARY KEY,
+  FullName VARCHAR(255),
+  AddressType VARCHAR(10),
+  AddressLine1 VARCHAR(255),
+  AddressLine2 VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS Orders (
+  OrderID INT AUTO_INCREMENT PRIMARY KEY,
+  ReferenceNum VARCHAR(255),
+  CountryCode VARCHAR(3),
+  AddressID INT,
+  CustomerID INT,
+  FOREIGN KEY (AddressID) REFERENCES Addresses(AddressID),
+  FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE IF NOT EXISTS OrderLines (
+  OrderLineID INT AUTO_INCREMENT PRIMARY KEY,
+  OrderID INT,
+  ItemNum VARCHAR(255),
+  ItemDescription VARCHAR(255),
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+);
