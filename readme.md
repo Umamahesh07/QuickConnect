@@ -16,6 +16,7 @@ CSS (Bootstrap): Framework for styling and responsive design.
 mySQL: Database system for data storage and management.
 
 Project Overview
+
 The QuickConnect project aims to create a user-friendly web application with a responsive design. By leveraging the power of Node.js, JavaScript, HTML, CSS (Bootstrap), and mySQL, this application offers a seamless experience across devices and platforms.
 
 A standout feature of QuickConnect is the ability to upload XML files, allowing users to easily import data into the system. Upon uploading an XML file, the application processes the data and automatically inserts it into the appropriate database tables.
