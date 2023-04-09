@@ -1,0 +1,5 @@
+node_modules/
+.env
+Execution.mov
+Results.docx
+TransactionRequest.xml
