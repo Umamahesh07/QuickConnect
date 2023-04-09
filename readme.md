@@ -1,4 +1,4 @@
-#Project: QuickConnect - Full Stack Responsive Web App
+Project: QuickConnect - Full Stack Responsive Web App
 
 
 This README provides an overview of the technologies used in the QuickConnect project, a full stack responsive web application built using Node.js, JavaScript, HTML, CSS (Bootstrap), and mySQL. One of the key features of this web app is the ability to upload an XML file, which will then automatically insert the data contained in the file into the database.
