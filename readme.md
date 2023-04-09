@@ -6,10 +6,15 @@ This README provides an overview of the technologies used in the QuickConnect pr
 Technologies Used
 
 Node.js: Server-side runtime environment for handling back-end logic using JavaScript.
+
 JavaScript: Programming language used for both front-end and back-end development.
+
 HTML: Language for structuring web content.
+
 CSS (Bootstrap): Framework for styling and responsive design.
+
 mySQL: Database system for data storage and management.
+
 Project Overview
 The QuickConnect project aims to create a user-friendly web application with a responsive design. By leveraging the power of Node.js, JavaScript, HTML, CSS (Bootstrap), and mySQL, this application offers a seamless experience across devices and platforms.
 
