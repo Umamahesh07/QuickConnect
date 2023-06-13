@@ -1,4 +1,4 @@
-# Project Name
+# Quick Connect
 
 This is a web application built using Node.js, JavaScript, HTML, and CSS (Bootstrap).
 
